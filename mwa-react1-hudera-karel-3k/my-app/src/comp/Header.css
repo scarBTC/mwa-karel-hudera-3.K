@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+  
+nav {
+    height: 80px;
+    text-align: left;
+ }
+  
+ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    line-height: 80px;
+    width: auto;
+}
+  
+ul li a {
+    display: block;
+    font-size: 20px;
+    color: black;
+    padding-left: 20px;
+ }
