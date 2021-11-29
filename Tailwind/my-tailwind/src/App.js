@@ -22,7 +22,7 @@ function App() {
         <Product /> 
       </div>
       <div className="flex pt-16">
-       <img className="w1/2" src={bitcoinMining} alt="mining"/> 
+       <img className="w1/2 m-5" src={bitcoinMining} alt="mining"/> 
        <div className="pt-16 pl-8 m-auto">
         <Product2 /> 
         <Product2 /> 
