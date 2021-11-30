@@ -10,10 +10,12 @@ function App() {
   return (
     <div className="w-3/4 my-0 mx-auto">
       <Header />
-      <h1 className="text-center pt-10 text-xl">XXXXXXX XXXXXXXXX</h1>
-      <p className="text-center m-auto pt-5 w-60 text-2xl">xxxxx xxxx x x x x xxxxx x x xx  xxxx xxxxxxx xxx xx xxx x xxxxxxxx xxxxxx xxxx  xxx xxx</p>
-      <div className="w-max mx-auto pt-10">
-       <img src={mimg} alt="safe"/>        
+      <h1 className="text-center pt-28 text-6xl">Bitcoin</h1>
+      <p className="text-center m-auto pt-12 w-2/3 text-4xl">Nteger vel neque dui. Proin vel malesuada turpis. Nulla libero arcu, dapibus pellentesque turpis eget, pulvinar hendrerit urna. Phasellus ut lectus ut augue egestas consequat quis pretium nulla.</p>
+      <div className="pt-12">
+        <div className="w-max m-auto pt-12">
+        <img src={mimg} alt="safe"/>        
+        </div>
       </div>
       <div className="flex justify-between pt-16 m-auto">
         <Product />
