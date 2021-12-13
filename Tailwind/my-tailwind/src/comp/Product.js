@@ -2,7 +2,7 @@ import cryptocurrencies from './cryptocurrencies.png';
 function Product() {
     return (
     <div >
-        <img className="w-20 m-auto" src={cryptocurrencies} alt="cryptocurrencies" />
+        <img className="w-20 mx-12" src={cryptocurrencies} alt="cryptocurrencies" />
         <h1 className="w-2/3 m-auto pt-3 text-3xl">
           Lorem ipsum
         </h1>

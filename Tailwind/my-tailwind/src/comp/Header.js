@@ -14,7 +14,7 @@ function Header() {
               <li className="list-none inline-block leading-10 w-aut text-2xl hover:text-red-500"><a className="block pr-5" href="#">Testimonial</a></li>
             </ul>
           </nav>
-          <button className="bg-yellow-500 rounded-full px-4 mr-4 duration-400 hover:bg-yellow-600"><h1 className="leading-10 w-auto text-right text-xl">Get Started</h1></button>
+          <button className="bg-yellow-400 rounded-full px-4 mr-4 duration-400 hover:bg-yellow-500"><h1 className="leading-10 w-auto text-right text-xl">Get Started</h1></button>
       </div>
     );
   }
