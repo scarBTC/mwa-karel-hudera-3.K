@@ -3,7 +3,11 @@ module.exports = {
     "./src/**/*.{js,jsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'Mweed': "url('./comp/mweed3.jpg')",
+      }
+    },
   },
   plugins: [],
 }
